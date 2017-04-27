@@ -1,4 +1,4 @@
-#ifndef _MYSDL_Canvas_h_
+﻿#ifndef _MYSDL_Canvas_h_
 #define _MYSDL_Canvas_h_
 #include "SDL2/SDL.h"
 

@@ -1,4 +1,4 @@
-#ifndef _TextureManager_H
+﻿#ifndef _TextureManager_H
 #define _TextureManager_H
 
 

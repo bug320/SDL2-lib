@@ -1,4 +1,4 @@
-#ifndef _MYSDL_Tools_H
+ï»¿#ifndef _MYSDL_Tools_H
 #define _MYSDL_Tools_H
 struct Point
 	int x;
@@ -17,21 +17,21 @@ namespace p2r{
 	}//pwor
 	/**@return
 	 * point out rect :true 
-	 * ÆäËûÇé¿ö       :false 
+	 * å…¶ä»–æƒ…å†µ       :false 
 	 */
 	bool pointOutRect(Point p,SDL_Rect rec){
 		return p.x>rec.x||p.y>rec.y
 	}//potr
 	/**@return
 	 * point on rect :true 
-	 * ÆäËûÇé¿ö       :false 
+	 * å…¶ä»–æƒ…å†µ       :false 
 	 */
 	bool pointOnRect(Point p,SDL_Rect rec){
 		return p.x==rec.y&&p.y>rec.y;
 	}//ponr
 	/**@return
 	 * point in rect :true 
-	 * ÆäËûÇé¿ö       :false 
+	 * å…¶ä»–æƒ…å†µ       :false 
 	 */
 	bool pointInRect(Point p,SDL_Rect rec){
 		return p.x<rec.x||p.y<rec.y;

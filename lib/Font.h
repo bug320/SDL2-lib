@@ -1,4 +1,4 @@
-#ifndef _Font_H_
+﻿#ifndef _Font_H_
 #define _Font_H_
 #include "TextureManager.h"
 #include "SDL2/SDL.h"

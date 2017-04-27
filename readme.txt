@@ -1,5 +1,5 @@
-# ����Ҫ
+﻿# 很重要
 
-����ڵ����ϵ�IDE���� code:block�����޸� Canvas.h �ļ��еĺ궨��`SDL_OK`ֵ��Ϊ`_PC` ��������� �ֻ��ϵ�IDE���� C4driod�������޸�Ϊ `_PE`
+如果在电脑上的IDE（如 code:block），修改 Canvas.h 文件中的宏定义`SDL_OK`值改为`_PC` ，如果是在 手机上的IDE（如 C4driod），则修改为 `_PE`
 
- ԭ����SDL_Init()�����ķ���ֵ���⡣
+ 原因是SDL_Init()函数的返回值问题。
